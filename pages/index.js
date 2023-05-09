@@ -5,13 +5,18 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title> Nextjs App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
          Read <Link href="/posts/first-post">Posts page</Link>
+          <img src="/images/profile.jpg"
+               height={144} // Desired size with correct aspect ratio
+              width={144}  // Desired size with correct aspect ratio
+
+          alt="Your Name" />
         </h1>
 
         <p className={styles.description}>
